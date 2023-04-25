@@ -38,10 +38,10 @@
 
         if (Number.isInteger(solution)) {
           calculatorOutput.value = solution;
-          console.log(solution);
+          result.innerHTML=''
         } else {
-            console.log(solution.toFixed(2));
           calculatorOutput.value = solution.toFixed(2);
+          result.innerHTML=''
         }
       } catch (error) {
         result.innerHTML='مقدار وارد شده صحیح نمیباشد'
