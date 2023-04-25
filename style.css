@@ -60,3 +60,7 @@
   .calculator__key--enter:active {
     background: #00FFCA;
   }
+  .result{
+    color:red;
+    font-size: 1.7rem;
+}
